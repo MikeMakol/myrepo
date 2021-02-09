@@ -1,0 +1,13 @@
+import os
+fo = open("foo.txt", "r+")
+fo.write("Python is a great language.\nYeah it's great!!\n")
+fo.write("And yeah it is.")
+line = fo.readlines()
+print("Read line: %s" % line)
+fo.close()
+#os.rename("foo.txt", "f001.txt")
+#os.remove("f001.txt")
+#os.mkdir("newdir")
+print("closed or not: ",fo.closed)
+print("Name of the file: ",fo.name)
+print("Opening mode: ",fo.mode)
