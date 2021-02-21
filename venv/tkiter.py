@@ -1,6 +1,7 @@
+import tkinter as tk
 from tkinter import *
 
-root = Tk()
+root = tk.Tk()
 root.title('Codemy.com - center')
 app_width = 1366
 app_height = 768

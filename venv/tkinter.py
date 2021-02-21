@@ -1,6 +1,7 @@
+import tkinter as tkinter
 from tkinter import *
 
-root = Tk()
+root = tk.tkinter()
 root.geometry("500x500")
 lb = label(root, text= 'Hello world!')
 lb.pack()
